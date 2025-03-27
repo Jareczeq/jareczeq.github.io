@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    const apiRoot = 'https://19fac955-dc58-4303-8e4c-62b95fac353a-00-3s52j9solqpyn.riker.replit.dev/v1/tasks';
-    const trelloApiRoot = 'https://19fac955-dc58-4303-8e4c-62b95fac353a-00-3s52j9solqpyn.riker.replit.dev/v1/trello';
+    const apiRoot = 'https://tasks-render-b242.onrender.com/v1/tasks';
+    const trelloApiRoot = 'https://tasks-render-b242.onrender.com/v1/trello';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
 
